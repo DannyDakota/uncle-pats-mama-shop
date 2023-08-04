@@ -7,7 +7,7 @@ import {
     deleteItem,
     createUser,
     login
-} from '../controllers'
+} from '../controllers';
 
 const router = Router();
 
@@ -22,3 +22,5 @@ router.post('/products', createItem);
 router.get('/products', getAllItems);
 router.delete('/products', deleteItem);
 router.put('/products', updateItem);
+
+module.exports = router
