@@ -4,3 +4,5 @@ frontend/node_modules
 
 # backend
 backend/node_modules
+
+mama-shop-db.sqlite
